@@ -1,0 +1,31 @@
+# myst.yml
+version: 1
+project:
+  title: "Ce petit site web met en lumière mon manque d'organisation, d'idées et de bon sens. Fait pour des gens ayant du temps pour déchiffrer des pensées confuses❗"
+  license:
+    content: CC-BY-SA-3.0
+  subject: L'immobilier
+  venue:
+    title: Les élucubrations d'un chômeur de Marignac
+  open_access: true
+  github: https://github.com/GuillaumePoirier1996
+  date: 2024-11-29
+  authors:
+    name: Guillaume Poirier
+    email: guillaume.poirier1996@gmail.com
+  banner: src/img/banner.png
+  exclude:
+    - _build/
+    - .gitignore
+    - house-prices-env/
+    - "*.html"
+
+site:
+  template: article-theme
+  title: "Les élucubrations d'un chômeur de Marignac : l'immobilier"
+  options:
+    #hide_toc: true
+    folder: true
+    logo: src/img/maison.png
+    logo_text: "Les élucubrations d'un chômeur de Marignac : l'immobilier"
+    favicon: src/img/maison.png

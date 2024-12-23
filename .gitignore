@@ -1,0 +1,5 @@
+# fichiers, répertoires à ignorer lors d'un push
+_build
+__pycache__
+.ipynb_checkpoints
+house-prices-env
