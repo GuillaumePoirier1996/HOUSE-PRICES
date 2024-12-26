@@ -8,6 +8,7 @@
 **Pourquoi un rat:** <sup>2</sup>Je suis [rat de feu](https://www.france-mineraux.fr/astrologie/astrologie-chinoise/cycle-sexagesimal-chinois/rat-de-feu/#:~:text=En%20r%C3%A9sum%C3%A9%2C%20l'ann%C3%A9e%20du,aspirations%20avec%20ardeur%20et%20d%C3%A9termination.), impressionnant (ou pas) \
 **Licence:** CC-BY \
 **Points de contact:**
+
 <div style="display: flex; justify-content: center; align-items: center; gap: 30px;">
     <a href="tel:0785548643">
       <img src="../img/tel.png" alt="Téléphone">
@@ -41,13 +42,14 @@ Pour votre grand plaisir, je vous propose de vous indigner tranquillement avec c
 - Une tarification et une estimation DVF plus justes (bon, ben c'est là que j'ai envie d'essayer de faire quelque chose 💥💥).
 
 ## La tarification plus juste, qu'est ce que j'essai de dire par là
+
 ### Prendre en compte la montée des eaux, par exemple🌄
 
 Concrètement, l'idée, c'est simplement de se dire une chose : est-ce qu'on n'aura pas l'air bête quand on aura acheté une villa sur l'île de Ré qui sera sous l'eau d'ici une dizaine d'années ? Là, c'est dit de manière humoristique, mais, concrètement, si on réfléchit un peu, est-ce qu'on n'a pas intérêt à bloquer l'immobilier dans les endroits soumis aux inondations ?
 
 Lorsque j'ai écrit cette partie de l'article, nous étions quelques semaines après le phénomène de la goutte froide qui s'est produit à Valence. En écrivant ces quelques mots, j'ai une pensée pour les victimes, les familles, et ceux qui n'avaient rien demandé, sur qui le sort s'est abattu.
 
-Et puis, dans un deuxième temps, si je peux embêter tous les Jean-Michel Béton qui nous cassent les ********... Je dis ça en prenant le risque de me faire remonter les bretelles pour récupération médiatique. Même raisonnement pour les terrains sensibles aux sécheresses. Et même dans le futur, il va falloir fonctionner différemment à cause du retrait des côtes, par exemple.
+Et puis, dans un deuxième temps, si je peux embêter tous les Jean-Michel Béton qui nous cassent les \*\*\*\*\*\*\*\*... Je dis ça en prenant le risque de me faire remonter les bretelles pour récupération médiatique. Même raisonnement pour les terrains sensibles aux sécheresses. Et même dans le futur, il va falloir fonctionner différemment à cause du retrait des côtes, par exemple.
 
 Donc pour résumer : la prise en compte du réchauffement climatique qui va nous frapper en pleine tronche.
 
@@ -58,9 +60,9 @@ Donc pour résumer : la prise en compte du réchauffement climatique qui va nous
 Deuxième idée ou élucubration : bloquer, plus ou moins, le prix de l'immobilier. Alors là, tout le monde saute au plafond. Voici la liste des cas de figure que j'ai réussi à imaginer :
 
 1. Les investisseurs : pour eux, ["la question est vite répondue 😆😆😆"](https://www.youtube.com/watch?v=8VSFjyF3B5E&ab_channel=EspritFidget).
-2. Les banques : hummmmmm... Et si ça relançait l'immobilier ?! Oui, mais bon, est-ce que nos taux seraient suffisants pour générer assez ?
-3. Les actuaires : oh non, on va encore devoir modifier des programmes SAS impossibles à déchiffrer. En plus, ça va coûter cher...
-4. Les jeunes : si ça arrive, je pourrais enfin acheter une maison à la campagne❗J'en pleurerais presque.
+1. Les banques : hummmmmm... Et si ça relançait l'immobilier ?! Oui, mais bon, est-ce que nos taux seraient suffisants pour générer assez ?
+1. Les actuaires : oh non, on va encore devoir modifier des programmes SAS impossibles à déchiffrer. En plus, ça va coûter cher...
+1. Les jeunes : si ça arrive, je pourrais enfin acheter une maison à la campagne❗J'en pleurerais presque.
 
 Moi, ce qui m'a touché, c'est l'histoire de ma sœur et de son copain. Tous deux habitent à Mérignac. Lui est ingénieur dans un bureau d'études de calcul et structure pour les bâtiments. Elle est magnifique, brillante, et bien sûr meilleure que les autres (c'est ma sœur, donc je suis 💯 chauvin). Ingénieure et chercheuse au sein de l'université de Bordeaux. Bref, des profils de CSP qui peuvent sembler avantagés pour devenir primo-accédants. Pourtant, rien. Aucune possibilité. C'est trop cher, même aux alentours. Alors tant pis, un jour peut-être.
 
@@ -73,11 +75,15 @@ Donc pour résumer : on bloque !!
 Bref, après avoir bien rigolé, je vais vous presenter mon travail sur le sujet.
 
 ## Plan des travaux
+
 ### Projet Kaggle le remake
+
 Il y a environ deux ans, je me suis lancé dans mon tout premier projet Kaggle : le House Pricing Model, une compétition datant des années 2010. Après une année passée au contact des data scientists de la MAIF, j’ai voulu retenter l’expérience. L’objectif était de coder et de concrétiser mes idées, tout en observant et en partageant les progrès réalisés depuis mes débuts. Voici un lien pour plus de détails sur la [compétition](https://www.kaggle.com/competitions/house-prices-advanced-regression-techniques/overview).
 
 ### Scrapping, prise de données sur l'immobilier en France et en Charente Maritime
+
 A suivre
 
 ### La tarification juste
+
 A suivre

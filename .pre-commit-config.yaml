@@ -1,26 +1,75 @@
 repos:
+  - repo: local
+    hooks:
+      - id: update-environment
+        name: Mise à jour de environment.yml
+        # Pour Windows
+        entry: powershell -Command "
+          conda activate house-prices-env;
+          conda env export --no-builds --file environment.yml"
+        # Pour Linux/macOS
+        # entry: bash -c "source $(conda info --base)/etc/profile.d/conda.sh;
+        # conda activate house-prices-env;
+        # conda env export --no-builds --file environment.yml"
+        language: system
+
   - repo: https://github.com/pre-commit/pre-commit-hooks
     rev: v5.0.0
     hooks:
-      - id: check-ast
-      - id: check-byte-order-marker
-      - id: check-case-conflict
-      - id: check-docstring-first
-      - id: check-executables-have-shebangs
-      - id: check-json
-      - id: check-yaml
-      - id: debug-statements
-      - id: end-of-file-fixer
-      - id: pretty-format-json
-        args: ['--autofix']
-      - id: trailing-whitespace
-        exclude: ^data/
-      - id: mixed-line-ending
-        args: ['--fix=lf']
       - id: check-added-large-files
+        name: Contrôle de la taille des fichiers
         args: ['--maxkb=24000']
+      - id: check-ast
+        name: Contrôle de la syntaxe (fichiers python)
+      - id: check-builtin-literals
+        name: Contrôle de la syntaxe littérale lors de l'initialisation de types intégrés Python vides ou nuls
+      - id: check-case-conflict
+        name: Contrôle du nom des fichiers (pour les systèmes insensibles à la casse)
+      - id: check-docstring-first
+        name: Vérifie que le code n'est pas avant la docstring (commentaire définissant une fonction)
+      - id: check-executables-have-shebangs
+        name: Vérifie que les exécutables non-binaires ont un shebang approprié
+      - id: check-illegal-windows-names
+        name: Contrôle des fichiers qui ne peuvent pas être créés sous Windows
+      - id: check-json
+        name: Tente de charger tous les fichiers json pour vérifier la syntaxe
+      - id: check-merge-conflict
+        name: Recherche les fichiers contenant des chaînes de conflit lors d'un merge github
+      - id: check-shebang-scripts-are-executable
+        name: Vérifie que les scripts avec shebangs sont exécutables
+      - id: check-symlinks
+        name: Vérifie les liens symboliques qui ne pointent vers rien
+      - id : check-toml
+        name: Tente de charger tous les fichiers TOML pour vérifier la syntaxe
+      - id: check-vcs-permalinks
+        name: S'assure que les liens vers les sites Web vcs sont des liens permanents
+      - id: check-xml
+        name: Tente de charger tous les fichiers xml pour vérifier la syntaxe
+      - id: check-yaml
+        name: Tente de charger tous les fichiers yaml pour vérifier la syntaxe
+      - id: debug-statements
+        name: Vérifie les importations de débogueur et les appels py37+ breakpoint() dans la source Python
+      # - id: destroy-symlinks
+      #   name: Détecte les liens symboliques qui sont modifiés en fichiers normaux avec un contenu d'un chemin vers lequel ce lien symbolique pointait
+      - id: end-of-file-fixer
+        name: Vérifie que les fichiers se terminent par une nouvelle ligne et uniquement par une nouvelle ligne
+      - id: fix-byte-order-marker
+        name: Supprime le marqueur d'ordre des octets UTF-8
+      - id: mixed-line-ending
+        name: Remplace ou vérifie la fin de ligne mixte
+        exclude: .md$
+        args: ['--fix=crlf']
+      - id: pretty-format-json
+        name: Vérifie que tous vos fichiers JSON sont jolis (clés triées et indentées)
+        args: ['--autofix']
+      - id: sort-simple-yaml
+        name: Trie les fichiers YAML simples constitués uniquement de clés de niveau supérieur, en préservant les commentaires et les blocs
+      - id: trailing-whitespace
+        name: Supprime les espaces de fin
+        exclude: ^data/
 
   - repo: https://github.com/executablebooks/mdformat
     rev: 0.7.21
     hooks:
     - id: mdformat
+      name: Multiple contrôle pour les fichiers Markdown
