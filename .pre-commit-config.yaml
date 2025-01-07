@@ -73,3 +73,12 @@ repos:
     hooks:
     - id: mdformat
       name: Multiple contrôle pour les fichiers Markdown
+
+  - repo: https://github.com/astral-sh/ruff-pre-commit
+    rev: v0.8.2
+    hooks:
+      - id: ruff
+        name: Lint et organise les imports
+        args: ["--fix", "check", "--select", "I"]
+      - id: ruff-format
+        name: formatte
