@@ -26,7 +26,7 @@
 
 ## Résumé
 
-Mon alternance terminée, j'ai bénéficié de beaucoup de temps libre. Après avoir pris un repos bien mérité, j'ai décidé de poursuivre mon entraînement pour devenir un Data Scientist compétent, capable d'utiliser divers langages et techniques souvent demandées dans le domaine. Mon premier objectif a été de revisiter tous mes projets scolaires et de les approfondir, que ce soit par le biais de techniques de modélisation, de traitement des données ou d'analyse descriptive.
+Mon alternance terminée, j'ai bénéficié de beaucoup de temps libre. Après avoir pris un repos bien mérité, j'ai décidé de poursuivre mon entraînement pour devenir un Data Scientist compétent, capable d'utiliser divers langages et techniques souvent demandés dans le domaine. Mon premier objectif a été de revisiter tous mes projets scolaires et de les approfondir, que ce soit par le biais de techniques de modélisation, de traitement des données ou d'analyses descriptives.
 
 Puis, j'ai ressenti le besoin de reprendre un ancien projet auquel je m'étais déjà attelé : le célèbre défi de Kaggle sur la prédiction des prix immobiliers. À mes yeux, ce projet n'avait jamais atteint son objectif secondaire : expliquer la tarification immobilière de manière claire. C'est là que je partage mes travaux, avec un accent particulier sur les valeurs de Shapley, qui sont non seulement captivantes pour les Data Scientists, mais aussi précieuses pour les acheteurs et les vendeurs.
 
