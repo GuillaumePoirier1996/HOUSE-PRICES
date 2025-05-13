@@ -18,10 +18,8 @@
 [![GitHub last commit](https://img.shields.io/github/last-commit/GuillaumePoirier1996/HOUSE-PRICES)](#)
 [![Total Downloads](https://img.shields.io/github/downloads/GuillaumePoirier1996/HOUSE-PRICES/total.svg)](#)
 
-[![Share](https://img.shields.io/badge/share-000000?logo=x&logoColor=white)](https://x.com/intent/tweet?text=Discover%20my%20GitHub%20project:%20https://github.com/GuillaumePoirier1996/HOUSE-PRICES%20%23DataScience%20%23MachineLearning%20%23Python)
 [![Share](https://img.shields.io/badge/share-1877F2?logo=facebook&logoColor=white)](https://www.facebook.com/sharer/sharer.php?u=https://github.com/GuillaumePoirier1996/HOUSE-PRICES)
 [![Share](https://img.shields.io/badge/share-0A66C2?logo=linkedin&logoColor=white)](https://www.linkedin.com/sharing/share-offsite/?url=https://github.com/GuillaumePoirier1996/HOUSE-PRICES)
-[![Share](https://img.shields.io/badge/share-FF4500?logo=reddit&logoColor=white)](https://www.reddit.com/submit?title=Check%20out%20this%20project%20on%20GitHub:%20https://github.com/GuillaumePoirier1996/HOUSE-PRICES)
 [![Share](https://img.shields.io/badge/share-0088CC?logo=telegram&logoColor=white)](https://t.me/share/url?url=https://github.com/GuillaumePoirier1996/HOUSE-PRICES&text=Check%20out%20this%20project%20on%20GitHub)
 
 🔥 In this little repo, you're gonna find some fantasies about a big topic : 🏠 the property business 🏠
@@ -39,7 +37,7 @@ Welcome to this repository❗Here, you'll find code and resources focused on rea
 
 - **Kaggle Project**: A few years ago, I embarked on my first Kaggle project: the House Pricing Model, a competition dating back to the 2010s. After spending a year collaborating with data scientists at MAIF, I decided to revisit this project. The goal was to code and implement my ideas while reflecting on and sharing the progress I've made since my early days. Learn more about the competition on its [Kaggle page](https://www.kaggle.com/competitions/house-prices-advanced-regression-techniques/overview).
 
-- **Web Scraping and Data Collection on French Real Estate**: This section focuses on developing several programs to scrape data from various websites featuring real estate listings in France, particularly in the Charente-Maritime region.
+- **Web Scraping and Data Collection on French Real Estate**: This section focuses on developing several programs to scrape data from various websites featuring real estate listings in France, particularly in the Bordeaux region.
 
 - **Fair Pricing**: The final section addresses a key question: how can we regulate real estate prices to ensure fair pricing per square meter while managing market price increases effectively?
 
@@ -166,6 +164,6 @@ For more details about my work or any general information, feel free to reach ou
     </a>
 </div>
 
-Don't hesitate if you want to work with me, I'm steel looking for a job 😂😂.
+Don't hesitate if you want to work with me, I'm steel looking for a job❗
 
 [Back to top](#top)

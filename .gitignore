@@ -3,3 +3,4 @@ _build
 __pycache__
 .ipynb_checkpoints
 house-prices-env
+catboost_info
